@@ -6,19 +6,21 @@ steps to reproduce:
 
 1. ensure docker + docker-compose are installed and working on your system
 2. clone the project and enter the _livewire-refresh_ folder
-3. start Laravel sail service, that will set up the docker containers:
+
+3. install npm and composer dependencies
+4. 
+```bash
+composer install
+```
+```bash
+npm install
+```
+
+
+4. start Laravel sail service, that will set up the docker containers:
    
 ```bash
 ./vendor/bin/sail up -d
-```
-
-4. install npm and composer dependencies
-
-```bash
-./vendor/bin/sail npm install
-```
-```bash
-./vendor/bin/sail composer install
 ```
 
 5. start vite server
