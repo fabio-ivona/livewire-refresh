@@ -5,7 +5,7 @@ This project is a reproduction of the issue described in
 steps to reproduce:
 
 1. ensure docker + docker-compose are installed and working on your system
-2. clone the project and enter in the _livewire-refresh_ folder
+2. clone the project and enter the _livewire-refresh_ folder
 3. start Laravel sail service, that will set up the docker containers:
    
 ```bash
