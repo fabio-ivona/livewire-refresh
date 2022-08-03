@@ -1,6 +1,6 @@
 # dummy project for unwanted full refreshes reproduction
 
-This project is a reproduction of the issue described in 
+This project is a reproduction of the issue described [here](https://github.com/vitejs/vite/issues/9512)
 
 steps to reproduce:
 
